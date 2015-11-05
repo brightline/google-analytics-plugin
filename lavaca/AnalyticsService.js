@@ -51,6 +51,9 @@ define(function(require) {
     debugMode: function() {
       throw 'debugMode is not implemented for Lavaca';
     },
+    enableAdvertisingIdCollection: function() {
+      throw 'enableAdvertisingIdCollection is not implemented for Lavaca';
+    },
     trackEvent: function(category, action, label, value) {
       action = action || '';
       label = label || '';
